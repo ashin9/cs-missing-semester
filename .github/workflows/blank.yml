@@ -38,3 +38,7 @@ jobs:
       # Shellcheck
       - name: ShellCheck
         uses: ludeeus/action-shellcheck@1.1.0
+
+      # Lint Markdown
+      - name: Lint Markdown
+        uses: tomwhross/write-good-action@v1.6
